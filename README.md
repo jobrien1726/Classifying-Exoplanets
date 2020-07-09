@@ -1,4 +1,4 @@
-# machine-learning-challenge
+# Classifying Exoplanets
 
 Model Performance Analysis/Comparison
 
