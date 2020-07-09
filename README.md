@@ -12,6 +12,13 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 - Scikit-learn
 - Tensorflow
 
+## Classification Models
+
+- Random Forest
+- K Nearest Neighbors
+- Support Vector Machine
+- Deep Learning
+
 
 Model Performance Analysis/Comparison
 
