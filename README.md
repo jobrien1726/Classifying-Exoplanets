@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-
+The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models in classifying exoplanets with the given [dataset](.
 
 Model Performance Analysis/Comparison
 
