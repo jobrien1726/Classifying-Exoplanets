@@ -6,11 +6,11 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 
 ## Technologies Used
 
--
--
--
--
--
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Tensorflow
 
 
 Model Performance Analysis/Comparison
