@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models. Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. Four machine learning models were used to classify candidate exoplanets from the raw [dataset](data/exoplanet_data.csv) provided by telescope: a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. 
-
 ![](images/exoplanets.png)
+
+The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models. Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. Four machine learning models were used to classify candidate exoplanets from the raw [dataset](data/exoplanet_data.csv) provided by telescope: a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. 
 
 ## Technologies Used
 
