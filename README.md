@@ -19,7 +19,7 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 - [Deep Learning](deep_learning.ipynb)
 - [K Nearest Neighbors](knn.ipynb)
 - [Support Vector Machine](svm.ipynb)
-- Random Forest
+- [Random Forest](random_forest.ipynb)
 
 ## Method
 
@@ -39,6 +39,3 @@ The datset had a very large number of features. The Random Forest model was test
 With the K Nearest Neighbors model, when plotting the test accuracy score with regard to number of nearest neighbors, it was estimated that 13 nearest neighbors would provide the best model for classifying the data. This returned an accuracy score of .816. However, after hypertuning the model,it was found that 9 was actually the most appopriate number of neighbors to use, yielding an accuracy of .841.
 
 Each of the models used had a fairly high accuracy score, they were all greater than .80. With an accuracy score of .883 and .881, respectively, I think both the Support Vector Machine model and the Deep Learning model would be good enough to predict new exoplanets accurately most of the time. A better method for narrowing down the subset of features to only the most important ones would most likely yeild more accurate results and they would take far less time to train/hypertune. Training this amount of data and then running through all hypertune scenarios was certainly pretty time consuming. 
-
-
-
