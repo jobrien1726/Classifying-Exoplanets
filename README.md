@@ -21,7 +21,14 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 - Support Vector Machine
 - Random Forest
 
-## 
+## Method
+
+- Feature Selection
+- Train/Test Split
+- Scale the data using MinMaxScaler
+- Train the Model (using each of the Classification Models)
+- GridSearchCV to tune Model parameters
+- Confusion Matrix
 
 Model Performance Analysis/Comparison
 
