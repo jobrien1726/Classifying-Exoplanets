@@ -16,7 +16,7 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 
 ## Classification Models
 
-- Deep Learning
+- [Deep Learning](deep_learning.ipynb)
 - K Nearest Neighbors
 - Support Vector Machine
 - Random Forest
