@@ -18,7 +18,7 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 
 - [Deep Learning](deep_learning.ipynb)
 - [K Nearest Neighbors](knn.ipynb)
-- Support Vector Machine
+- [Support Vector Machine](svm.ipynb)
 - Random Forest
 
 ## Method
