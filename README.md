@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models in classifying exoplanets with the given [dataset](data/exoplanet_data.csv).
+The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models. Four machine learning models were used to classify exoplanets with the provided [dataset](data/exoplanet_data.csv): a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. 
 
 ## Technologies Used
 
@@ -14,15 +14,16 @@ The goal of this project was to compare/contrast the efficiency and accuracy of 
 
 ## Classification Models
 
-- Random Forest
+- Deep Learning
 - K Nearest Neighbors
 - Support Vector Machine
-- Deep Learning
+- Random Forest
 
+## 
 
 Model Performance Analysis/Comparison
 
-I used a total of four machine learning models to classify exoplanets with the provided dataset: a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. I had expected that the Deep Learning model would end of having the greatest percent accuracy in classifying exoplanets, but it turned out that my hypertuned Support Vector Machine model was slightly more accurate, with an accuracy of .883 vs the Deep Learning model's .881.
+Four machine learning models were used to classify exoplanets with the provided dataset: a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. I had expected that the Deep Learning model would end of having the greatest percent accuracy in classifying exoplanets, but it turned out that my hypertuned Support Vector Machine model was slightly more accurate, with an accuracy of .883 vs the Deep Learning model's .881.
 
 The datset had a very large number of features. I worked with the Random Forest model first, and used the feature_importance function to try to narrow down the number of features. However, they all seemed to have very low numbers with regard to importance. It was difficult to decide which subset was significantly more relevant than the others. I decided to try only using those that had an importance > .05, so I used the top five most important features. I went back through all the steps of creating a train test split and scaling the data. Ultimately, it was the very first Random Forest model I trained that had the highest accuracy (.87), before the hypertuning, which I found surprising. By comparison, the model I trained using the smaller subset of "most important" features had an accuracy of .85.
 
