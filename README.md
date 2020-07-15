@@ -1,8 +1,8 @@
-# Classifying Exoplanets
+# Exoplanet Exploration: Classifying Exoplanets
 
 ## Project Overview
 
-The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models. Four machine learning models were used to classify exoplanets with the provided [dataset](data/exoplanet_data.csv): a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. 
+The goal of this project was to compare/contrast the efficiency and accuracy of various Machine Learning Classification models. Four machine learning models were used to classify candidate exoplanets from the raw [dataset](data/exoplanet_data.csv): a Deep Learning neural network, a K Nearest Neighbors model, a Support Vector Machine, and a Random Forest. 
 
 ## Technologies Used
 
